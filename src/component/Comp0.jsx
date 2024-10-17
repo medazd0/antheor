@@ -16,8 +16,8 @@ export default function Comp0() {
     <div className='flex justify-between justify-center mt-20 ml-14 mr-14'>
   <div className='flex'>
   <div><img src={img0} alt="" /></div>
-  <div>
-    <div>01 42 89 53 18</div>
+  <div className='flex flex-col items-start ml-2'>
+    <div className='font-bold'>01 42 89 53 18</div>
     <div>Contact @ antheor-paris.fr</div>
   </div>
 
@@ -25,7 +25,7 @@ export default function Comp0() {
   <div><img src={img1} alt="" /></div>
   <div className='flex'>
   <div><img src={img2} alt="" /></div>
-  <div>
+  <div className='flex flex-col items-start ml-2 font-bold'>
     <div>8 rue , Corvetto</div>
     <div>75008 Paris</div>
   </div>
