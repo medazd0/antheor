@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/antheor/static/css/main.a9d3db39.css",
-    "main.js": "/antheor/static/js/main.63eb504a.js",
+    "main.css": "/antheor/static/css/main.5ce43325.css",
+    "main.js": "/antheor/static/js/main.17b5b660.js",
     "static/js/453.f6ab7c04.chunk.js": "/antheor/static/js/453.f6ab7c04.chunk.js",
     "static/media/mapsNotWorking.PNG": "/antheor/static/media/mapsNotWorking.178e61cc22ab93e1bdf9.PNG",
     "static/media/img1.jpg": "/antheor/static/media/img1.daf59282494444b26b06.jpg",
@@ -19,12 +19,12 @@
     "static/media/Google-Reviews.png": "/antheor/static/media/Google-Reviews.d46026889bf73d7dc0e6.png",
     "static/media/img1.png": "/antheor/static/media/img1.119ee76da3bd101bb48e.png",
     "index.html": "/antheor/index.html",
-    "main.a9d3db39.css.map": "/antheor/static/css/main.a9d3db39.css.map",
-    "main.63eb504a.js.map": "/antheor/static/js/main.63eb504a.js.map",
+    "main.5ce43325.css.map": "/antheor/static/css/main.5ce43325.css.map",
+    "main.17b5b660.js.map": "/antheor/static/js/main.17b5b660.js.map",
     "453.f6ab7c04.chunk.js.map": "/antheor/static/js/453.f6ab7c04.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9d3db39.css",
-    "static/js/main.63eb504a.js"
+    "static/css/main.5ce43325.css",
+    "static/js/main.17b5b660.js"
   ]
 }
