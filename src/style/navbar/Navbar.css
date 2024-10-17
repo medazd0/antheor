@@ -1,0 +1,13 @@
+.icon1 , .icon2 , .icon3 , .icon4 {
+  display: flex;
+  flex-direction: row;
+}
+.NavbarCon{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.pack1 , .pack2{
+  display: flex;
+ 
+}
