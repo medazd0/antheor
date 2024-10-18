@@ -19,6 +19,7 @@ import { IoIosTime } from "react-icons/io";
 import { MdDirectionsTransitFilled } from "react-icons/md";
 import maps from '../images/imgComp1/mapsNotWorking.PNG'
 import frameWEB from '../images/imgComp1/frameWEB.png'
+import { FaStarOfLife } from "react-icons/fa";
 
 
 
@@ -27,8 +28,15 @@ export default function comp1() {
   return (
     <div className='ContainerComp1 flex flex-col justify-center mt-10'>
       <div>
-        <div className='text-lg text-[#EAB120] tracking-widest'>Anthéor Paris</div>
+        <div className='text-lg text-[#EAB120] tracking-widest'>ANTHÉOR PARIS</div>
         <div className='text-4xl'>PREREQUIS</div>
+        <div className='flex justify-center items-center pt-5 space-x-1 '>
+          <div className="w-32 h-0.5 bg-yellow-600  mb-2"></div>
+          <div className='mb-2'><FaStarOfLife className='text-[#EAB120] text-[6px]'/></div>
+          <div className="w-32 h-0.5 bg-yellow-600 mb-2"></div>
+
+        </div>
+       
       </div>
       <div className='flex justify-center mt-10 space-x-5 '>
                   <div className='flex justify-center items-center space-x-2'>
@@ -41,8 +49,14 @@ export default function comp1() {
                   </div>
       </div>
       <div className='mt-10 mb-20'>
-        <div className='text-lg text-[#EAB120] tracking-widest'>Anthéor Paris</div>
+        <div className='text-lg text-[#EAB120] tracking-widest'>ANTHÉOR PARIS</div>
         <div className='font-semibold text-3xl'>Nous achetons , Aux Meilleurs prix n et Comptant</div>
+        <div className='flex justify-center items-center pt-5 space-x-1 '>
+          <div className="w-96 h-0.5 bg-yellow-600  mb-2"></div>
+          <div className='mb-2'><FaStarOfLife className='text-[#EAB120] text-[6px]'/></div>
+          <div className="w-96 h-0.5 bg-yellow-600 mb-2"></div>
+
+        </div>
       </div>
 
  <div className='space-y-3'>
@@ -123,7 +137,13 @@ export default function comp1() {
  </div>
  <div className='mt-5'>
   <div className='text-lg text-[#EAB120] tracking-widest '>ANTHÉOR PARIS</div>
-  <div className='text-4xl mb-10'>SE Rendre En boutique</div>
+  <div className='text-4xl '>SE Rendre En boutique</div>
+  <div className='flex justify-center items-center pt-5 mb-5 space-x-1 '>
+          <div className="w-60 h-0.5 bg-yellow-600  mb-2"></div>
+          <div className='mb-2'><FaStarOfLife className='text-[#EAB120] text-[6px]'/></div>
+          <div className="w-60 h-0.5 bg-yellow-600 mb-2"></div>
+
+        </div>
       </div>  
       <div className='flex justify-center ml-28 mr-28  relative space-x-3  '>
      <div className=' w-1/2  relative'>
@@ -158,12 +178,18 @@ export default function comp1() {
  <div className='text-gray-50 font-normal text-left pl-10 mt-2'>De 17h à 19h00</div>
      </div>
     
-     <div className='w-1/2'><img src={maps} alt="" className='w-9/12 h-3/4' /></div>
+     <div className='w-1/2'><img src={maps} alt="" className='' /></div>
     </div>
 
-    <div className='mt-10 mb-10'>
-  <div className='text-lg text-[#EAB120] tracking-widest'>Anthéor Paris</div>
+    <div className='pt-10 pb-10'>
+  <div className='text-lg text-[#EAB120] tracking-widest'>ANTHÉOR PARIS</div>
   <div className='text-4xl'>CONTACTEZ-NOUS</div>
+  <div className='flex justify-center items-center pt-5 space-x-1 '>
+          <div className="w-44 h-0.5 bg-yellow-600  mb-2"></div>
+          <div className='mb-2'><FaStarOfLife className='text-[#EAB120] text-[6px]'/></div>
+          <div className="w-44 h-0.5 bg-yellow-600 mb-2"></div>
+
+        </div>
       </div> 
 
       <div className='flex justify-center items-center space-x-8'>

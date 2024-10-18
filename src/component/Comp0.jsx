@@ -63,13 +63,13 @@ export default function Comp0() {
     
   </div>
   
-  <div className='flex justify-center  mb-5 space-x-2'>
-    <div className='space-y-2 h-[400px]'>
+  <div className='flex justify-center  mb-5 space-x-2 pl-32 pr-32'>
+    <div className='space-y-2  w-1/2'>
       <div className=' Allreview text-[12px] bg-white border border-black border-opacity-25  h-2/3 flex flex-col p-6 items-start shadow-2xl'>
   <h6 className='text-sm text-[#EAB120] tracking-widest'>ANTHÉOR PARIS</h6>
   <p className='text-1xl font-bold text-justify mb-5'>Nous sommes spécialisées dans le rachat d'or d'argent & D'Antiquités de plus de 20 ans 
   </p>
-  <div className='flex flex-col items-start space-y-4 pl-4'>
+  <div className='flex flex-col items-start space-y-2 pl-4'>
   <div className='flex justify-center space-x-1 ' >
        <div><GrCheckmark className='text-[#EAB120]'/></div>
        <div className='text-justify'>Achat de métaux préciaux : or( à 32 euro le gramme de 18k et jusqu'à 50 euro par gramme )<br/> Argent -Platine
@@ -104,28 +104,30 @@ export default function Comp0() {
 
 
       </div>
-      <div className='GoogleReview flex flex-col text-center h-1/3 relative shadow-2xl '>
+      <div className='GoogleReview flex flex-col text-center  relative  '>
   
-  <div className="z-10 relative  flex flex-col justify-center  ">
-    <div className='text-slate-200 font-bold pt-2'>9.9 / 10</div>
+  <div className="z-10 relative  flex flex-col justify-center bg-[#271221] pb-4 pt-2 space-y-0  ">
+    <div className='text-slate-200 font-bold '>9.9 / 10</div>
     <div className='w-1/5 mx-auto'><img src={etoil} alt="" /></div>
-    <div className='text-3xl text-slate-200'>Excellent</div>
-    <div className='text-xs'>basé sur 89 avis</div>
-    <div className='w-1/6 ml-60 -mt-3 ' ><img src={img4} alt=""   /></div>
+   <div className='pb-2'>
+   <div className='text-3xl text-slate-200'>Excellent</div>
+   <div className='text-xs font-extralight  text-white '>basé sur 89 avis</div>
+   </div>
+    <div className='w-1/6 ml-44   ' ><img src={img4} alt=""   /></div>
   </div>
 
 
-  <div className='bg-[#24101F] absolute top-0 left-0 h-full w-full z-0 '></div>
 </div>
 
         
     </div>
-    <div><img src={img5} alt=""  className='w-96 h-[400px]'/></div>
+    <div className='w-1/2'><img src={img5} alt=""  className=''/></div>
   </div>
 
    <div className='flex justify-center space-x-32 mt-16'>
     <div className='text-left '> 
-      <div className='text-sm text-[#EAB120]'>ANTHEOR PARIS</div>
+    
+      <div className='text-sm text-[#EAB120]'>ANTHÉOR PARIS</div>
       <div className='text-3xl font-bold'> Comment Se déroule le <br/>Rachat de Votre or ?</div>
     </div>
     <div className='flex flex-col items-start'>

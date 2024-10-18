@@ -14,6 +14,7 @@ import { FaPhoneFlip } from "react-icons/fa6";
 import { MdOutlineMessage } from "react-icons/md";
 import { CiLocationOn } from "react-icons/ci";
 import img5 from '../images/imgComp5/logo-ed.png'
+import { FaStarOfLife } from "react-icons/fa";
 function Comp5() {
   return (
     <>
@@ -56,9 +57,15 @@ function Comp5() {
     </div>
 
     <div className='mt-5'>
-        <div className='text-lg text-[#EAB120] tracking-widest'>Anthéor Paris</div>
+        <div className='text-lg text-[#EAB120] tracking-widest'>ANTHÉOR PARIS</div>
         <div className='text-4xl'>Ils parlent de Nous</div>
-      </div>*
+        <div className='flex justify-center items-center pt-5 space-x-1 '>
+          <div className="w-44 h-0.5 bg-yellow-600  mb-2"></div>
+          <div className='mb-2'><FaStarOfLife className='text-[#EAB120] text-[6px]'/></div>
+          <div className="w-44 h-0.5 bg-yellow-600 mb-2"></div>
+
+        </div>
+      </div>
       <div className='mb-5'>
 
 
