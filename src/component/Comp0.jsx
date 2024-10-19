@@ -10,6 +10,9 @@ import { GrCheckmark } from "react-icons/gr";
 import { FaHome } from "react-icons/fa";
 import { FaStore } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa";
+import { Link } from 'react-router-dom';
+import { GoogleMap, LoadScript } from '@react-google-maps/api';
+
 export default function Comp0() {
   return (
     <div className='w-full h-full'>
@@ -34,28 +37,36 @@ export default function Comp0() {
     
     </div>
   <div className=' menu flex justify-center mt-5  '>
-    <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Acceuil</div>
+  <Link to='/antheor/#'> 
     <div className=' flex justify-center items-center'>
     <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2 '>Rachat Or</div>
     <div><FaAngleDown/></div>
     </div>
+    </Link>
+    <Link to='/antheor/#'> 
     <div className='flex justify-center items-center'>
       <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Argent</div>
       <div><FaAngleDown /></div>
     </div>
-    <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Argenterie</div>
+    </Link>
+    <Link to='/antheor/#'> 
+    <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Argenterie</div></Link>
+    <Link to='/antheor/#'> 
     <div className='flex justify-center items-center'>
       <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Bijoux</div>
       <div><FaAngleDown/></div>
     </div>
-    <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Antiquités</div>
-    <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Diamnts</div>
-    <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Montres</div>
-    <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Tableaux</div>
-    <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Contact</div>
-    <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Plan d'accès</div>
-    <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>que somment Nous</div>
-    <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Blog</div>
+    </Link>
+    
+    <Link to='/antheor/#'> 
+    <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Antiquités</div> </Link>
+    <Link to='/antheor/#'>  <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Diamnts</div></Link>
+    <Link to='/antheor/#'>  <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Montres</div></Link>
+    <Link to='/antheor/#'> <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Tableaux</div> </Link>
+    <Link to='/antheor/#'>  <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Contact</div> </Link>
+    <Link to='/antheor/#'> <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Plan d'accès</div> </Link>
+    <Link to='/antheor/#'> <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>que somment Nous</div> </Link>
+    <Link to='/antheor/#'> <div className='text-sm font-bold p-3 flex justify-center items-center space-x-1 border-t  border-opacity-50 pl-2 pr-2 hover:border-[#C59418] hover:border-t-2'>Blog</div> </Link>
   </div>
 
   <div >
@@ -63,39 +74,39 @@ export default function Comp0() {
     
   </div>
   
-  <div className='flex justify-center  mb-5 space-x-2 pl-32 pr-32'>
-    <div className='space-y-2  w-1/2'>
-      <div className=' Allreview text-[12px] bg-white border border-black border-opacity-25  h-2/3 flex flex-col p-6 items-start shadow-2xl'>
-  <h6 className='text-sm text-[#EAB120] tracking-widest'>ANTHÉOR PARIS</h6>
-  <p className='text-1xl font-bold text-justify mb-5'>Nous sommes spécialisées dans le rachat d'or d'argent & D'Antiquités de plus de 20 ans 
+  <div className='flex justify-center  mb-5 space-x-3  h-[400px] pr-52 pl-52  '>
+    <div className=' w-1/2 flex flex-col justify-between  '>
+      <div className=' Allreview text-[12px] bg-white border border-gray-100 border-opacity-25 flex flex-col  items-start   justify-start p-2 pl-5 pr-5 shadow-2xl rounded-md'>
+  <h6 className='text-sm text-[#EAB120] tracking-widest mb-1'>ANTHÉOR PARIS</h6>
+  <p className='text-1xl font-bold text-justify mb-2 uppercase'>Nous sommes spécialisées dans le rachat d'or d'argent & D'Antiquités de plus de 20 ans 
   </p>
   <div className='flex flex-col items-start space-y-2 pl-4'>
   <div className='flex justify-center space-x-1 ' >
        <div><GrCheckmark className='text-[#EAB120]'/></div>
-       <div className='text-justify'>Achat de métaux préciaux : or( à 32 euro le gramme de 18k et jusqu'à 50 euro par gramme )<br/> Argent -Platine
+       <div className='text-justify text-xs'>Achat de métaux préciaux : or( à 32 euro le gramme de 18k et jusqu'à 50 euro par gramme )Argent -Platine
        pièces or Argent -lingots Or Argent </div>
   </div>
   <div className='flex justify-center items-center space-x-1'>
     <div><GrCheckmark className='text-[#EAB120]'/></div>
-    <div >pièces or Argent -lingots Or Argent </div>
+    <div className='text-xs' >pièces or Argent -lingots Or Argent </div>
   </div>
   <div className='flex justify-center items-center space-x-1 '>
     <div><GrCheckmark className='text-[#EAB120]'/></div>
-    <div>Bijoux d'Occasion , bijoux de marque (Van -cleef , Cartier )</div>
+    <div className='text-xs'>Bijoux d'Occasion , bijoux de marque (Van -cleef , Cartier )</div>
   </div>
   <div className='flex justify-center items-center space-x-1'>
     <div><GrCheckmark className='text-[#EAB120]'/></div>
-    <div>Bijoux d'Occasion , bijoux de marque (Van -cleef , Cartier )</div>
+    <div className='text-xs'>Bijoux d'Occasion , bijoux de marque (Van -cleef , Cartier )</div>
   </div>
   <div className='flex justify-center items-center space-x-1'>
     <div><GrCheckmark className='text-[#EAB120]'/></div>
-    <div>Montres de marque (Rolex , Patek Philippe , Audemards de Piguet)</div>
+    <div className='text-xs text-justify'>Montres de marque (Rolex , Patek Philippe , Audemards de Piguet)</div>
   </div>
   <div>
     <div className='flex justify-center items-center space-x-1'>
 <div><GrCheckmark className='text-[#EAB120]'/>
 </div>      
-<div>Antiquités ( TAbleaux , Bronze , Art des années 30 et 50)</div>
+<div className='text-xs'>Antiquités ( TAbleaux , Bronze , Art des années 30 et 50)</div>
       
       </div>
     
@@ -104,16 +115,16 @@ export default function Comp0() {
 
 
       </div>
-      <div className='GoogleReview flex flex-col text-center  relative  '>
+      <div className='GoogleReview flex flex-col   '>
   
-  <div className="z-10 relative  flex flex-col justify-center bg-[#271221] pb-4 pt-2 space-y-0  ">
+  <div className="  z-10    bg-[#271221] rounded-md flex flex-col items-center justify-center ">
     <div className='text-slate-200 font-bold '>9.9 / 10</div>
-    <div className='w-1/5 mx-auto'><img src={etoil} alt="" /></div>
+    <div className='flex justify-center'><img src={etoil} alt="" className='w-1/5' /></div>
    <div className='pb-2'>
    <div className='text-3xl text-slate-200'>Excellent</div>
    <div className='text-xs font-extralight  text-white '>basé sur 89 avis</div>
    </div>
-    <div className='w-1/6 ml-44   ' ><img src={img4} alt=""   /></div>
+    <div className='w-1/6  mb-1 ' ><img src={img4} alt=""   /></div>
   </div>
 
 
@@ -121,7 +132,7 @@ export default function Comp0() {
 
         
     </div>
-    <div className='w-1/2'><img src={img5} alt=""  className=''/></div>
+    <div className='w-1/2  '><img src={img5} alt=""  className=' w-full h-full'/></div>
   </div>
 
    <div className='flex justify-center space-x-32 mt-16'>

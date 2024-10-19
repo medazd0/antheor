@@ -20,6 +20,8 @@ import { MdDirectionsTransitFilled } from "react-icons/md";
 import maps from '../images/imgComp1/mapsNotWorking.PNG'
 import frameWEB from '../images/imgComp1/frameWEB.png'
 import { FaStarOfLife } from "react-icons/fa";
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -178,7 +180,21 @@ export default function comp1() {
  <div className='text-gray-50 font-normal text-left pl-10 mt-2'>De 17h à 19h00</div>
      </div>
     
-     <div className='w-1/2'><img src={maps} alt="" className='' /></div>
+     <div className='w-1/2'>
+     <div className='w-full'>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6881.033898164884!2d-9.57690440058758!3d30.421444209809593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b64cdc22384f%3A0xa3d0ef7a3774d1f5!2sEnergiedin!5e0!3m2!1sen!2sma!4v1729354044997!5m2!1sen!2sma"
+    width="450"
+    height="505"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
+</div>
+
+</div>
+
     </div>
 
     <div className='pt-10 pb-10'>

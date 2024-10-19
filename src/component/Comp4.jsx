@@ -8,15 +8,15 @@ export default function Comp4() {
   return (
     <>
     <div className='flex justify-center p-36 space-x-9'>
-      <div className='w-1/2'><img src={img0} alt="" /></div>
-      <div className='w-1/2 flex flex-col items-start justify-start border border-black border-opacity-25 p-4 bg-white'>
-      <div className='text-sm text-[#EAB120] tracking-widest   '>ANTHÉOR PARIS</div>
-      <div className='text-1xl font-bold text-justify '>Antheor paris , Un Comptoir spécialisé à Votre Service</div>
+      <div className='w-1/2'><img src={img0} alt=""  className='rounded-md'/></div>
+      <div className='w-1/2 flex flex-col items-start justify-start bg-white border border-gray-100 border-opacity-25 p-4 shadow-2xl rounded-md '>
+      <div className='text-sm text-[#EAB120] tracking-widest  mb-5  '>ANTHÉOR PARIS</div>
+      <div className='text-1xl font-bold text-justify mb-2 '>Antheor paris , Un Comptoir spécialisé à Votre Service</div>
 
      
 
-      <div className='text-xs font-bold  text-justify mt-2 leading-relaxed' > Depuis plus d'une vingtaine d'années d'existence, Antheor Paris s'est spécialisé dans le rachat de métaux précieux à Paris tels que l'Or, le Platine ou l'Argent, sous toutes leurs formes, qu'ils soient en lingots, en bijoux ou encore en pièces de monnaie. Mais encore, le comptoir peut également vous racheter vos objets d'antiquité de valeur.</div>
-      <div  className='text-justify font-thin text-xs leading-relaxed'> Si vous avez investi dans des bijoux précieux et autres objets antiques pour protéger et diversifier vos épargnes, les revendre constitue également un meilleur moyen d'obtenir rapidement des liquidités. Antheor Paris vous fait bénéficier des meilleurs coûts du marché, vous pouvez vendre à partir d'un gramme, et proposez vos propres prix selon vos besoins et vos envies. Avec Antheor Paris, vous serez payé au comptant, aux meilleurs prix.
+      <div className='text-xs font-bold  text-justify mt-2 leading-loose' > Depuis plus d'une vingtaine d'années d'existence, Antheor Paris s'est spécialisé dans le rachat de métaux précieux à Paris tels que l'Or, le Platine ou l'Argent, sous toutes leurs formes, qu'ils soient en lingots, en bijoux ou encore en pièces de monnaie. Mais encore, le comptoir peut également vous racheter vos objets d'antiquité de valeur.</div>
+      <div  className='text-justify font-thin text-xs leading-loose'> Si vous avez investi dans des bijoux précieux et autres objets antiques pour protéger et diversifier vos épargnes, les revendre constitue également un meilleur moyen d'obtenir rapidement des liquidités. Antheor Paris vous fait bénéficier des meilleurs coûts du marché, vous pouvez vendre à partir d'un gramme, et proposez vos propres prix selon vos besoins et vos envies. Avec Antheor Paris, vous serez payé au comptant, aux meilleurs prix.
       Antheor Paris est . Nombreuxfait confiance, nous avons déjà pu satisfaire différents vendeurs avec des cours extrêmement compétitifs.</div>
 
       </div>
@@ -47,7 +47,7 @@ export default function Comp4() {
 
     </div>
    </div>
-   <div className='QuoteContainer flex justify-center bg-[#C59418] ml-24 mr-24 mt-7 '>
+   <div className='QuoteContainer flex justify-center bg-[#C59418] ml-24 mr-24 mt-7 mb-5 '>
 
    <div className='w-1/12 p-4 mt-3'> <FaQuoteLeft className='text-2xl text-white'/></div>
    <div className='flex flex-col items-start p-8'>
@@ -56,9 +56,9 @@ export default function Comp4() {
    </div>
 
    </div>
-   <div className='flex justify-center pl-36 pr-36 pt-10 pb-10 space-x-9'>
-      <div className='w-1/2'><img src={img1} alt="" /></div>
-      <div className='w-1/2 flex flex-col items-start justify-start border border-black border-opacity-25 p-4 bg-white'>
+   <div className='flex justify-center  mb-5 space-x-3  h-[400px] pr-52 pl-52'>
+      <div className='w-1/2 '><img src={img1} alt=" " className=' w-full h-full' /></div>
+      <div className='w-1/2 flex flex-col items-start justify-start bg-white border border-gray-100 border-opacity-25 p-4 shadow-2xl rounded-md'>
       <div className='text-sm text-[#EAB120] tracking-widest mt-4 mb-4'>
       ANTHÉOR PARIS</div>
       <div className='text-1xl font-bold text-justify '>Vendez vos bijoux et objets précieux dans un cadre légal</div>
